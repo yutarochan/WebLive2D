@@ -1,0 +1,22 @@
+{
+	"type": "Live2D Model Setting",
+	"name": "izumi_suisai",
+	"model": "izumi_suisai.moc",
+	"textures": [
+		"izumi_suisai.512/texture_00.png",
+		"izumi_suisai.512/texture_01.png",
+		"izumi_suisai.512/texture_02.png",
+		"izumi_suisai.512/texture_03.png"
+	],
+    "physics":"izumi_suisai.physics.json",
+	"motions": {
+		"idle": [
+			{"file":"motions/izumi_01.mtn" ,"fade_in":1000, "fade_out":0} ,
+			{"file":"motions/izumi_02.mtn" ,"fade_in":1000, "fade_out":0} ,
+			{"file":"motions/izumi_03.mtn" ,"fade_in":1000, "fade_out":0} ,
+			{"file":"motions/izumi_04.mtn" ,"fade_in":1000, "fade_out":0} ,
+			{"file":"motions/izumi_05.mtn" ,"fade_in":1000, "fade_out":0}
+		]
+	}
+
+}

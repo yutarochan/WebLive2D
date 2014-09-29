@@ -1,0 +1,110 @@
+
+body{
+	margin:0px ;
+	padding:0px ;
+	overflow-y:scroll;
+	font-family: Helvetica, Arial, Meiryo, "ãƒ¡ã‚¤ãƒªã‚ª", 'Droid Sans',sans-serif;
+	background-color: #ddd ;
+}
+
+h3{
+	font-size: 24px;
+	font-weight: bold ;
+}
+
+
+
+.bold{
+	font-weight: bold ;
+}
+
+#header{
+	margin: 0;
+	padding: 0;
+	padding-top: 7;
+	height: 35px ;
+	background-color: #222 ;
+}
+
+#header-inside{
+	width: 600px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#header-left{
+	float:left;
+}
+
+#social{
+	float:right;
+	margin: 0;
+	margin-top: 3px;
+	padding: 0;
+}
+
+
+#maindiv{
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 640px;	
+
+	font-size: 20px
+}
+
+#maindiv a{
+	font-size: 24px;
+	font-weight: bold ;
+	color: #08E ;
+}
+
+
+#canvas_box{
+	position: relative; 
+}
+
+#dummy_box{
+	width: 640px;	
+	height: 800px;	
+}
+
+#loading{
+	position: absolute; 
+	top: 188px;  
+    left: 308px;  
+
+	z-index: 10;
+}
+
+#back_img , #frame_img  , #frame_img2 , #frame_img3 , #glcanvas {
+	position: absolute; 
+	clip: rect(0px, 640px, 800px, 0px);
+}
+
+#back_img {
+	z-index: -1;
+	visibility: hidden ;
+}
+
+#glcanvas {
+	z-index: 1;
+}
+
+#frame_img {
+	z-index: 0;
+}
+#frame_img2 {
+	z-index: 2;
+}
+#frame_img3 {
+	z-index: 3;
+}
+
+#myconsole {
+	color:#BBB ;
+}
+
+

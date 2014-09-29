@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WebGL x Live2D for cross-platform browser app!</title>
+</meta>
+<meta name="viewport" content="width=device-width, initial-scale=0.5, minimum-scale=0.5, maximum-scale=4.0"></meta>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="favicon.ico" />
+
+</head>
+<body onload="main()">
+
+    <div id="canvas_box">
+	
+	    <img 	id="loading" src="res/loading.gif">
+		
+		<img 	id="back_img" 	width="640" height="800" src="res/back/back_MF003_blur.jpg" >
+		<canvas id="glcanvas" 	width="640" height="800" ></canvas>
+
+		<div id="dummy_box"></div>
+		<div 	id="myconsole" style="">
+			---- Log ----<br>
+			total size : 640 KB
+		</div>
+	</div>
+
+
+</div>
+
+<!-- ###### SCRIPT ###### -->
+<script>
+window.PROMO_MODEL_SETTING = {
+	MODEL_JSON_PATH : "res/izumi_suisai/izumi_suisai.model.json" ,
+	ZOOM : 1.5 ,
+	ZOOM_CENTER_X : 0 ,
+	ZOOM_CENTER_Y : 0.6 ,
+	OFFSET_X : 0 ,
+	OFFSET_Y : -0.1 ,
+} ;
+</script>
+
+<script src="lib/live2d.min.js"></script>
+<script src="lib/live2d_framework.js"></script>
+<script src="lib/promo1_util.js"></script>
+<script src="lib/sample_wrapper.js"></script>
+
+<script src="lib/promo1.js"></script>
+
+</body>
+</html>
