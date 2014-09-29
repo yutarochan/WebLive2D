@@ -1,4 +1,4 @@
 OpenLive2D Modeler
 ==================
 
-An open-source implementation of Cybernoids' Live2D Modeling (Cubism Editor) program.
+A rebuild of Cybernoids' Live2D demo for interactive systems on mobile platforms.
